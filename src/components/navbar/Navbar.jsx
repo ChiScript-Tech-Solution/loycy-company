@@ -7,13 +7,7 @@ import { Icons } from '../../constant/Icons';
 
 const Navbar = () => {
     // creating a toggle function from the useState hook
-    const [openNav, setOpenNav] = useState(false);
 
-    const [open, setOpen] = useState(false);
-
-    const handleOpen = (value) => {
-        setOpen(open === value ? 0 : value);
-    };
 
     return (
             <div className="flex justify-between items-center loycy-outfit loycy-primary loycy-400 loycy-16 line-24 loycy-shadow px-8 lg:px-16 py-5">
