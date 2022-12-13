@@ -77,7 +77,14 @@ import General from "./img/all/investment/general.png";
 // ENGINEERING
 import Operation1 from "./img/all/engineering/operation1.png";
 
+
+// HIRING EQUIPMENT
+import Bulldozer from "./img/all/hire/bulldozer.png";
+
 export  { 
+
+    // HIRING EQUIPMENT
+    Bulldozer,
 
     // logo
     Logo,

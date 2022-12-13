@@ -239,6 +239,13 @@
 }
 
 
+.hiring__bg {
+    background-image: url("../img/all/hire/hire_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
@@ -287,3 +294,71 @@
     align-items: center;
     justify-items: center;
 }
+
+
+
+
+/* HIRING TAB */
+
+.tab-now-now div:nth-child(1) {
+    color: #000 !important;
+    padding: 10px 10px !important;
+    opacity: 75;
+    font-size: 18px !important;
+    font-family: var(--petro-medium);
+    font-weight: 500;
+  }
+  
+  
+  .tab-now-now div:nth-child(2) {
+    background-color: #FDB900 !important;
+  }
+  
+  
+  /* PAGINATION */
+  .petro__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .petro__pagination a {
+    padding: 10px;
+    margin: 8px;
+    border-bottom: 2px solid #FDB900;
+    color: #313131;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .petro__pagination a:hover {
+    color: black;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #FDB900;
+  }
+  
+  .petro__pagination .active a {
+    color: #FDB900;
+    background: rgba(253, 185, 0, 0.05); 
+  }
+  
+  .paginationDisabled a {
+    color: #1B5AB2;
+    background-color: white;
+  
+  }
+
+
+
+  .equipment__card:hover img {
+        border: 1px solid #FDB900;
+  }
+
+
+  .equipment__card:hover p {
+    background-color: #FDB900;
+    color: #000;
+  }

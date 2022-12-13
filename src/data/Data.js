@@ -17,6 +17,7 @@ import {
   Slider9,
   Slider8,
   Slider7,
+  Bulldozer,
 } from "../assets/import";
 
 export const service = [
@@ -230,3 +231,69 @@ export const partner = [
     img: ExxonComp,
   },
 ];
+
+
+
+
+export const equipment = [
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+  {
+    img: Bulldozer,
+    title: "Bulldozer"
+  },
+]

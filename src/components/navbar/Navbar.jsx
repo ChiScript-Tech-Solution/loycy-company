@@ -16,7 +16,7 @@ const Navbar = () => {
                     <Link to="/about"><li>About Us</li></Link>
                     <Link to="/investment"><li>Investment</li></Link>
                     <Link to="/engineering"><li>Engineering</li></Link>
-                    <Link to="/hiring"><li>For Hire</li></Link>
+                    <Link to="/hire"><li>For Hire</li></Link>
                 </ul>
 
                 <button className={`py-3 px-8 hidden sm:hidden md:hidden lg:block loycy-light rounded-md loycy-btn`}>
