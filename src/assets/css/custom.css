@@ -1,0 +1,269 @@
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --loycy-avenir: 'loycy-avenir';
+    --loycy-regular: 'loycy-regular';
+    --loycy-medium: 'loycy-medium';
+    --loycy-semibold: 'loycy-semibold';
+
+    /* color */
+    --loycy-primary: #1B5AB2;
+    --loycy-secondary: #141414;
+    --loycy-dark: #000;
+    --loycy-light: #fff;
+    --loycy-light-dark: #0D2410;
+    --loycy-secondary-bg: #051224;
+    --loycy-outfit: 'Outfit', sans-serif;
+    --loycy-inter: 'Inter', sans-serif;
+
+}
+
+/* default setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--loycy-light);
+}
+
+/* CUSTOM FONT */
+
+@font-face {
+    font-family: 'loycy-regular';
+    src: url("../font/GeneralSans-Regular.woff"),
+        url("../font/GeneralSans-Regular.woff2"),
+        url("../font/GeneralSans-Regular.ttf");
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'loycy-medium';
+    src: url("../font/GeneralSans-Medium.ttf"),
+        url("../font/GeneralSans-Medium.woff"),
+        url("../font/GeneralSans-Medium.woff2");
+         font-display: swap;
+         font-style: normal;
+  }
+
+@font-face {
+    font-family: 'loycy-semibold';
+    src: url("../font/GeneralSans-Semibold.ttf"),
+            url("../font/GeneralSans-Semibold.woff"),
+            url("../font/GeneralSans-Semibold.woff2");
+            font-display: swap;
+            font-style: normal;
+}
+
+
+@font-face {
+    font-family: var(--loycy-avenir);
+    src: url("../font/avenir_ff/AvenirLTStd-Black.otf"),
+    url("../font/avenir_ff/AvenirLTStd-Book.otf"),
+    url("../font/avenir_ff/AvenirLTStd-Roman.otf");
+    font-style: normal;
+}
+
+
+/* text colors */
+
+.loycy-primary {
+    color: var(--loycy-primary);
+}
+
+.loycy-secondary {
+    color: var(--loycy-secondary);
+}
+
+.loycy-dark {
+    color: var(--loycy-dark);
+}
+
+.loycy-light {
+    color: var(--loycy-light);
+}
+
+.loycy-light-dark {
+    color: var(--loycy-light-dark);
+}
+
+
+.text-white-light {
+    color: #ffffffbf;
+}
+
+.text-white-light-2 {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.loycy-dark-light {
+   color: #000000bf;
+}
+
+.dark-light {
+    color: rgba(13, 36, 16, 0.65);
+}
+
+.loycy-green {
+    color: var(--loycy-secondary-bg);
+}
+
+
+/* button background colors */
+
+.loycy-primary-bg {
+    background-color: var(--loycy-primary);
+}
+
+.loycy-secondary-bg {
+    background-color: var(--loycy-secondary-bg);
+}
+
+
+
+/* text size */
+
+.loycy-10 {
+    font-size: 10px;
+}
+
+.loycy-12 {
+    font-size: 12px;
+}
+
+.loycy-14 {
+    font-size: 14px;
+}
+
+.loycy-16 {
+    font-size: 16px;
+}
+
+.loycy-18 {
+    font-size: 18px;
+}
+
+.loycy-20 {
+    font-size: 20px;
+}
+
+.loycy-24 {
+    font-size: 24px;
+}
+
+.loycy-26 {
+    font-size: 26px;
+}
+
+.loycy-30 {
+    font-size: 30px;
+}
+
+.loycy-38 {
+    font-size: 38px;
+}
+
+.loycy-40 {
+    font-size: 40px;
+}
+
+.loycy-48 {
+    font-size: 48px;
+}
+
+
+
+/* font weight */
+
+.loycy-400 {
+    font-weight: 400;
+}
+
+.loycy-500 {
+    font-weight: 500;
+}
+
+.loycy-600 {
+    font-weight: 600;
+}
+
+.loycy-700 {
+    font-weight: 700;
+}
+
+
+
+
+/* font family */
+
+.loycy-avenir {
+    font-family: var(--loycy-avenir);
+}
+
+.loycy-regular {
+    font-family: var(--loycy-regular);
+}
+
+.loycy-medium {
+    font-family: var(--loycy-medium);
+}
+
+.loycy-semibold {
+    font-family: var(--loycy-semibold);
+}
+
+.loycy-outfit {
+    font-family: var(--loycy-outfit);
+}
+
+.loycy-inter {
+    font-family: var(--loycy-inter);
+}
+
+
+
+/* line height */
+
+.line-14 {
+    line-height: 14px;
+}
+
+.line-24 {
+    line-height: 24.72px;
+}
+
+.line-28 {
+    line-height: 28px;
+}
+
+.line-30 {
+    line-height: 30px;
+}
+
+.line-35 {
+    line-height: 35px;
+}
+
+.line-48 {
+    line-height: 48px;
+}
+
+.line-50 {
+    line-height: 50px;
+}
+
+.line-58{
+    line-height: 58px;
+}
+
+.line-60 {
+    line-height: 60px;
+}

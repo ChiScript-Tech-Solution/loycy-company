@@ -1,0 +1,12 @@
+
+
+/* ABOUT US */
+
+@media (max-width: 991px) {
+    .loycy__about__bg {
+        background-color: var(--loycy-primary);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
