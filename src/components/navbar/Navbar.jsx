@@ -1,5 +1,5 @@
 // applying react hook called useState
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Logo } from '../../assets/import';
 import { Icons } from '../../constant/Icons';
