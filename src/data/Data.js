@@ -79,42 +79,49 @@ export const hire = [
   {
     img: Hire1,
     title: "BULLDOZERS",
+    path: '/hire'
   },
 
   {
     img: Hire2,
     title: "EXCAVATORS",
-
+    path: '/hire'
   },
 
   {
     img: Hire3,
     title: "FORK LIFTS",
+    path: '/hire'
   },
 
   {
     img: Hire4,
     title: "ROLLERS",
+    path: '/hire'
   },
 
   {
     img: Hire5,
     title: "LOW BEDS",
+    path: '/hire'
   },
 
   {
     img: Hire6,
     title: "CRANES",
+    path: '/hire'
   },
 
   {
     img: Hire7,
     title: "CRANES",
+    path: '/hire'
   },
 
   {
     img: Hire8,
     title: "CRANES",
+    path: '/hire'
   },
 ];
 
@@ -238,63 +245,78 @@ export const partner = [
 export const equipment = [
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
   {
     img: Bulldozer,
-    title: "Bulldozer"
+    title: "Bulldozer",
+    path: "/contact-us"
   },
 ]
 
@@ -303,22 +325,22 @@ export const equipment = [
 export const address = [
   {
     title: "Nigeria (Headquarters)",
-    desc: "KM 17 Port Harcourt Aba Expressway, (By Old Toll Gate) Iriebe, Port Harcourt, Rivers State, Nigeria.",
+    desc: "140, East West Road, Uniport Route, Rumuokoro, Port Harcourt, Nigeria.",
   },
 
   {
-    title: "South Africa",
-    desc: "30 Airborne Business Park, Taljaard Street, Bartlett Boksburg 1459. +27-11-894-1901 | +27-79-934-3682 info-sa@petrobasegroup.com",
+    title: "Email Address",
+    desc: "info@loycyinvestment.com | loycyinvestment@yahoo.com",
   },
 
   {
-    title: "United States of America",
-    desc: "5041 Spencer Hwy. Ste 901 Pasadena TX 77505. +1-346-229-4122   |   +1-832-353-4233  info-us@petrobasegroup.com",
+    title: "Phone Number",
+    desc: "Nigeria +2348133896437 | (Canada) +19059290955 | (USA) +13126872798",
   },
 
   {
-    title: "Namibia",
-    desc: "Petro-Base Group Trading Namibia (CC) PO Box 4794, Vineta Swakopmund +264817217788 namibia@petrobasegroup.com",
+    title: "Work Hour",
+    desc: "Monday – Friday, 9am – 6pm",
   },
 ];
 

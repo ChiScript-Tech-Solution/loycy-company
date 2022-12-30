@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Partners } from '..';
 import { Icons } from '../../constant/Icons';
 import { hire, news, partner, } from "../../data/Data"
@@ -19,12 +20,14 @@ const Leading = () => {
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
                     {hire.map((item, index) => (
-                        <div key={index} className='hire-bg rounded-md outfit justify-center items-center p-10 shadow'>
-                            <img src={item.img} alt={item.title} className="w-full h-36" />
-                            <h2 className='loycy-inter loycy-600 loycy-18 text-center p-3 w-full loycy-btn mt-10 loycy-light z-50 cursor-pointer'>
-                                {item.title}
-                            </h2>
-                        </div>
+                        <Link to={item.path}>
+                            <div key={index} className='hire-bg rounded-md outfit justify-center items-center p-10 shadow'>
+                                <img src={item.img} alt={item.title} className="w-full h-36" />
+                                <h2 className='loycy-inter loycy-600 loycy-18 text-center p-3 w-full loycy-btn mt-10 loycy-light z-50 cursor-pointer'>
+                                    {item.title}
+                                </h2>
+                            </div>
+                        </Link>
                     ))}
                 </div>
             </div>

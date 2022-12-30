@@ -10,11 +10,11 @@ import { closeMenu } from "../../store/mobileSlice";
 const Menu = () => {
   const dispatch = useDispatch();
 
-  const activeLink = 'bg-white bg-opacity-20 p-2 rounded-md';
+  const activeLink = 'text-[#FC8200]';
   const normalLink = "";
 
   return (
-    <aside className="mobilemenu">
+    <aside className="mobilemenu block sm:block md:block lg:hidden">
       <button
         type="button"
         className="menu__button__close"

@@ -9,9 +9,9 @@ const Form = () => {
   return (
     <div className='bg-[#001A3D] px-8 lg:px-24 py-8 lg:py-20'>
         <div className='contact__form__bg block lg:flex justify-between items-center p-10'>
-            <div className="mt-16 lg:mt-0">
-                <h3 className='petro-medium font-500 text-[18px] petro-heading opacity-[0.45]'>Need help?</h3>
-                <h2 className='petro-semibold font-600 text-[20px] lg:text-[40px] petro-heading'>Get in touch with us</h2>
+            <div className="mt-16 lg:mt-0 w-full lg:w-[20rem]">
+                <h3 className='petro-medium font-500 text-[18px] petro-heading opacity-[0.45]'>Have Any Question?</h3>
+                <h2 className='petro-semibold font-600 text-[20px] lg:text-[20px] petro-heading'>Kindly fill our form with your details and one of our professionals will reply you shortly.</h2>
             </div>
             <div className='bg-white p-8 rounded w-full lg:w-[35rem] shadow mt-6 lg:mt-0'>
                 <form onSubmit={handleSubmit} >

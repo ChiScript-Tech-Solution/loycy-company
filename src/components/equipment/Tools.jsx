@@ -37,12 +37,14 @@ const WorkDone = () => {
             label: "Onshore",
             value: "onshore",
             desc: <BullDozer />,
+    
         },
 
         {
             label: "Offshore",
             value: "offshore",
             desc: <BullDozer/>,
+
         },
     ];
 

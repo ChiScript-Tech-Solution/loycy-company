@@ -38,6 +38,10 @@
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
 }
 
+.menu__list li:hover {
+    color: #FC8200;
+}
+
 
 .ctr-down:active {
     color: black;
