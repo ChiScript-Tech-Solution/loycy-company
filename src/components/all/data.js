@@ -104,22 +104,22 @@ export const engineer = [
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Chemical />,
         desc: "Chemical and Petrochemical",
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Power />,
         desc: "Power Generation and Distribution",
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Industrial />,
         desc: "Testing/ Pre – Commissioning",
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Erosion />,
         desc: "Procurement",
     },
 
@@ -129,22 +129,22 @@ export const engineer = [
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Chemical />,
         desc: "Chemical and Petrochemical",
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Power />,
         desc: "Power Generation and Distribution",
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Industrial />,
         desc: "Testing/ Pre – Commissioning",
     },
 
     {
-        icon: <Icons.Gas />,
+        icon: <Icons.Erosion />,
         desc: "Procurement",
     },
 

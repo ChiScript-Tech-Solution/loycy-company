@@ -30,7 +30,7 @@ const Company__Vision__Mission__CoreValue = () => {
 
                     {/* right */}
                     <div>
-                        <div className='flex justify-between space-x-4'>
+                        <div className='block sm:block md:flex lg:flex justify-between space-y-8 lg:space-y-0 space-x-0 lg:space-x-4'>
                             <div>
                                 <h1 className='loycy-regular loycy-400 loycy-24 line-30 text-white-light-2 pb-5'>OUR VISION</h1>
                                 <ul className='loycy-regular loycy-400 loycy-16 text-white-light'>
@@ -50,17 +50,17 @@ const Company__Vision__Mission__CoreValue = () => {
                             </div>
                         </div>
 
-                        <div className='pt-10 flex justify-between items-center gap-10'>
+                        <div className='pt-10 block sm:block lg:flex justify-between items-center gap-5 lg:gap-10 space-y-4 lg:space-y-0'>
                             <div className='loycy-medium loycy-600 loycy-18 line-28 text-white-light uppercase'>
                                 <h1>Our Core Value</h1>
                             </div>
                             <div>
-                                <div className='about__value flex justify-between items-center loycy-regular loycy-18 text-white-light'>
+                                <div className='about__value block sm:block md:flex lg:flex justify-between items-center loycy-regular text-lg text-white-light'>
                                     <p>Excellence</p>
                                     <p>Innovation</p>
                                     <p>Respect</p>
                                 </div>
-                                <div className='about__ flex justify-between items-center loycy-regular loycy-18 text-white-light'>
+                                <div className='about__ block sm:block md:flex lg:flex justify-between items-center loycy-regular text-lg text-white-light'>
                                     <p>Excellence</p>
                                     <p>Innovation</p>
                                     <p>Respect</p>

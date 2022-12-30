@@ -39,7 +39,7 @@ const Footer = () => {
                         <h2 className='loycy-semibold loycy-600 loycy-16 loycy-light'>Subscribe to our Newsletter</h2>
                         <div className='flex items-center bg-white rounded-md my-5'>
                             <input type="text" placeholder='email address' className='w-full bg-transparent px-2 focus:outline-none' />
-                            <p className='loycy-secondary-bg p-4 rounded-br-md rounded-tr-md'><Icons.AccorArrow className='rotate-90 loycy-light' /></p>
+                            <p className='bg-[#F5CB4E] p-4 rounded-br-md rounded-tr-md'><Icons.AccorArrow className='rotate-90 loycy-light' /></p>
                         </div>
                         <span className='loycy-regular loycy-400 loycy-12 loycy-light opacity-[0.6]'>
                             Hello, get updates on our journey to becoming recognized as the premier indigenous 

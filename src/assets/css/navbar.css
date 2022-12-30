@@ -1,5 +1,42 @@
 
 
+.mobilemenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15rem;
+    height: 18rem;
+    background-color: transparent;
+    z-index: 1;
+    transition: all 3s ease;
+}
+
+.mobilemenu button {
+    background: #fc8200;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.menu__button__close {
+    position: absolute;
+    top: 1.4rem;
+    right: 1.9rem;
+    background-color: azure;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.menu__list {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 1.95px 1.95px 7px;
+}
+
+.menu__list li{
+    padding: 0.4rem 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
 
 
 .ctr-down:active {

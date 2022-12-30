@@ -22,9 +22,17 @@ import {
   Time,
   Setting,
   Gas,
+  Chemical,
+  Power,
+  Industrial,
+  Erosion,
 } from "../components/petro-icons/petro-icons";
 
 export const Icons = {
+  Industrial,
+  Erosion,
+  Power,
+  Chemical,
   Gas,
   Time,
   Setting,

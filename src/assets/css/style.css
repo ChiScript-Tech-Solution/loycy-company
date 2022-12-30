@@ -362,3 +362,11 @@
     background-color: #FDB900;
     color: #000;
   }
+
+
+  .contact__form__bg {
+    background-image: url("../img/form-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

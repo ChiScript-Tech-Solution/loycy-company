@@ -30,9 +30,9 @@ function Carousel({ images }) {
         setCurrent(current === images.length - 1 ? 0 : current + 1);
     };
 
-    // const slideLeft = () => {
-    //     setCurrent(current === 0 ? images.length - 1 : current - 1);
-    // };
+    const slideLeft = () => {
+        setCurrent(current === 0 ? images.length - 1 : current - 1);
+    };
     console.log(current);
 
     return (
@@ -56,9 +56,9 @@ function Carousel({ images }) {
                                 <>
                                     <img className="card_image" src={image.url} alt="" />
                                     <div className="card_overlay">
-                                        <div className="w-[25.5rem] sm:w-[25.5rem] md:w-[25.5rem] lg:w-[35rem] absolute top-5 lg:top-56 left-10 lg:left-24 flex-col">
+                                        <div className="w-full sm:w-[25.5rem] md:w-[25.5rem] lg:w-[35rem] absolute top-5 lg:top-56 left-5 lg:left-24 flex-col">
                                             <span className="loycy-regular loycy-400 text-[25px] sm:text-[25px] md:text-[40px] lg:text-[40px] leading-10 lg:leading-[49px] loycy-dark uppercase">{image.title} <span>{image.tip}</span></span>
-                                            <div className="slider__border__line w-80 h-3 mt-2"></div>
+                                            <div className="slider__border__line w-60 lg:w-80 h-3 mt-2"></div>
                                             <p className="loycy-regular loycy-18 loycy-dark py-4 mb-5">{image.desc}</p>
                                             <a href="/about">
                                                 <span className="loycy-btn py-4 px-7 loycy-inter loycy-500 loycy-18 loycy-light">Discover More</span>

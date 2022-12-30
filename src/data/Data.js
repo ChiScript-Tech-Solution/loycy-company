@@ -297,3 +297,55 @@ export const equipment = [
     title: "Bulldozer"
   },
 ]
+
+
+
+export const address = [
+  {
+    title: "Nigeria (Headquarters)",
+    desc: "KM 17 Port Harcourt Aba Expressway, (By Old Toll Gate) Iriebe, Port Harcourt, Rivers State, Nigeria.",
+  },
+
+  {
+    title: "South Africa",
+    desc: "30 Airborne Business Park, Taljaard Street, Bartlett Boksburg 1459. +27-11-894-1901 | +27-79-934-3682 info-sa@petrobasegroup.com",
+  },
+
+  {
+    title: "United States of America",
+    desc: "5041 Spencer Hwy. Ste 901 Pasadena TX 77505. +1-346-229-4122   |   +1-832-353-4233  info-us@petrobasegroup.com",
+  },
+
+  {
+    title: "Namibia",
+    desc: "Petro-Base Group Trading Namibia (CC) PO Box 4794, Vineta Swakopmund +264817217788 namibia@petrobasegroup.com",
+  },
+];
+
+
+export const menu = [
+  {
+    title: "About Us",
+    path: "/about"
+  },
+
+  {
+    title: "Investment",
+    path: "/investment"
+  },
+
+  {
+    title: "Engineering",
+    path: '/engineering'
+  },
+
+  {
+    title: "For Hire",
+    path: "/hire"
+  },
+
+  {
+    title: "Contact Us",
+    path: '/contact-us'
+  }
+]

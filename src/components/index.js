@@ -8,6 +8,7 @@ export { default as Footer } from "./footer/Footer";
 export * from "./slider";
 export * from "./company";
 export * from "./all";
+export * from "./contact";
 
 export { default as RevSlider } from "./hero/RevSlider";
 export { default as Partners } from "./partner/Partner";

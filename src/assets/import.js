@@ -76,6 +76,17 @@ import General from "./img/all/investment/general.png";
 
 // ENGINEERING
 import Operation1 from "./img/all/engineering/operation1.png";
+import Operation2 from "./img/all/engineering/operation2.png";
+import Operation3 from "./img/all/engineering/operation3.png";
+import Operation4 from "./img/all/engineering/operation4.png";
+import Operation5 from "./img/all/engineering/operation5.png";
+import Operation6 from "./img/all/engineering/operation6.png";
+import Operation7 from "./img/all/engineering/operation7.png";
+import Operation8 from "./img/all/engineering/operation8.png";
+import Operation9 from "./img/all/engineering/operation9.png";
+import Operation10 from "./img/all/engineering/operation10.png";
+import Operation11 from "./img/all/engineering/operation11.png";
+import Operation12 from "./img/all/engineering/operation12.png";
 
 
 // HIRING EQUIPMENT
@@ -162,4 +173,15 @@ export  {
 
     // OPERATION
     Operation1,
+    Operation2,
+    Operation3,
+    Operation4,
+    Operation5,
+    Operation6,
+    Operation7,
+    Operation8,
+    Operation9,
+    Operation10,
+    Operation11,
+    Operation12,
  }
