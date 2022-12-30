@@ -8,7 +8,7 @@ function Carousel({ images }) {
 
     const autoScroll = true;
     let slideInterval;
-    let intervalTime = 5000;
+    let intervalTime = 20000;
 
 
     function auto() {

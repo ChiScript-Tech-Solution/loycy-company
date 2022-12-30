@@ -5,8 +5,13 @@ import { Icons } from "../../constant/Icons";
 import { menu } from "../../data/Data";
 import { closeMenu } from "../../store/mobileSlice";
 
+
+
 const Menu = () => {
   const dispatch = useDispatch();
+
+  const activeLink = 'bg-white bg-opacity-20 p-2 rounded-md';
+  const normalLink = "";
 
   return (
     <aside className="mobilemenu">
@@ -22,7 +27,11 @@ const Menu = () => {
         <ul className="menu__list mt-[4.6rem]">
           {menu.map((menu, id) => (
             <li key={id} onClick={() => dispatch(closeMenu())}>
-              <Link to={menu.path}>{menu.title}</Link>
+              <Link to={menu.path}
+              className={({ isActive }) => isActive ? activeLink : normalLink }
+              >
+                {menu.title}
+              </Link>
             </li>
           ))}
         </ul>

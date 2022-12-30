@@ -8,7 +8,7 @@
     height: 18rem;
     background-color: transparent;
     z-index: 1;
-    transition: all 3s ease;
+    transition: all 3s;
 }
 
 .mobilemenu button {
