@@ -360,14 +360,45 @@ export const menu = [
     title: "Engineering",
     path: '/engineering'
   },
+]
+
+
+
+export const mobile = [
+  {
+    title: "About Us",
+    path: "/about"
+  },
 
   {
-    title: "For Hire",
-    path: "/hire"
+    title: "Investment",
+    path: "/investment"
+  },
+
+  {
+    title: "Engineering",
+    path: '/engineering'
+  },
+
+  {
+    title: "Heavy Equipment",
+    path: "/hire",
   },
 
   {
     title: "Contact Us",
-    path: '/contact-us'
+    path: "/contact-us"
+  },
+]
+
+export const submenu = [
+  {
+    title: "Heavy Equipment",
+    path: "/hire"
+  },
+
+  {
+    title: "Light Equipment",
+    path: '/'
   }
 ]

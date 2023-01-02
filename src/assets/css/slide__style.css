@@ -15,3 +15,28 @@
 .each-fade h1 {
   color: #fff;
 }
+
+
+.loycy__menu li:nth-child(4):hover .loycy__dropdown__menu {
+  display: block;
+  position: absolute;
+  top: 1.8rem;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+
+.loycy__dropdown__menu {
+  display: none;
+}
+
+.loycy__dropdown__menu li {
+  display: block;
+  padding: 4px 0;
+}
+
+

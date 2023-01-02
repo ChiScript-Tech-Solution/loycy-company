@@ -9,7 +9,7 @@ const Engineering = () => {
             <PetroNavbar />
 
             <PageBanner
-                bg="about__banner__bg"
+                bg="engineering__banner__bg"
                 bannerTitle="Engineering"
                 bannerSubTitle="We Provide Skilled Engineering Services"
                 bannerDesc="We are recognized for quality, safety, Cost effectiveness, and timely delivery of her projects. We have track records for all construction services."
@@ -33,7 +33,7 @@ const Engineering = () => {
                         return (
                             <div key={index} className=" engineer__card justify-center items-center text-center">
                                 <div className='flex justify-center items-center'>{item.icon}</div>
-                                <p className='loycy-regular loycy-400 text-[18px]'>{item.desc}</p>
+                                <p className='loycy-regular loycy-400 text-[18px] text-white'>{item.desc}</p>
                             </div>
                         )
                     })}

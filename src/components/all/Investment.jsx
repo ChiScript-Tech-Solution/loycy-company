@@ -9,7 +9,7 @@ const Investment = () => {
             <PetroNavbar />
 
             <PageBanner
-                bg="about__banner__bg"
+                bg="investment__banner__bg"
                 bannerTitle="Investment"
                 bannerSubTitle="Driving Growth through Quality Investments"
                 bannerDesc="Loycy Investment Company Limited (LIC) was incorporated as a private limited liability company in 1988 to carry out Building and Civil Engineering works. In 1993, it diversified its"

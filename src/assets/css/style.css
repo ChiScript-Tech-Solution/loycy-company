@@ -79,12 +79,12 @@
 }
 
 .about__value {
-    border-bottom: 1px solid #B4D243;
+    border-bottom: 1px solid #F6B700;
     border-bottom-width: 1px;
 }
 
 .about__value p {
-    border-right: 1px solid #B4D243;
+    border-right: 1px solid #F6B700;
     padding: 0px 30px 20px 30px;
 }
 
@@ -94,7 +94,7 @@
 
 
 .about__ p {
-    border-right: 1px solid #B4D243;
+    border-right: 1px solid #F6B700;
     padding: 20px 30px 0px 30px;
 }
 
@@ -122,29 +122,6 @@
     background-size: cover; 
 }
 
-/* .loycy__card:nth-child(2) {
-    background-image: url("../img/card-bg-2.png");
-    background-color: #40B450;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.loycy__card:nth-child(3) {
-    background-image: url("../img/card-bg-1.png");
-    background-color: #1B5AB2;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.loycy__card:nth-child(4) {
-    background-image: url("../img/card-bg-2.png");
-    background-color: #40B450;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-} */
 
 .loycy__card__arrow {
     display: flex;
@@ -230,6 +207,20 @@
     background-size: cover;
 }
 
+.engineering__banner__bg {
+    background-image: url("../img/all/engineering/engineering-hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.investment__banner__bg {
+    background-image: url("../img/all/investment/investment__banner__bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .engineering__bg {
     background-image: url("../img/all/engineering/engineering-bg.png");
@@ -246,7 +237,50 @@
     background-size: cover;
 }
 
+.banner__content h2, 
+.banner__content p {
+    color: rgba(50, 50, 50, 0.85);
+}
 
+.banner__hire__content h2,
+.banner__hire__content p {
+    color: white !important;
+}
+
+@media (max-width: 991px) {
+    .hiring__bg {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/all/hire/hire_bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .about__banner__bg {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/all/about-us/about__banner__bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .engineering__banner__bg {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/all/engineering/engineering-hero-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .investment__banner__bg {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/all/investment/investment__banner__bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner__content h2,
+    .banner__content p {
+        color: white;
+    }
+}
 
 
 
@@ -296,6 +330,14 @@
 }
 
 
+.home__button {
+    background-color: white;
+}
+
+.home__button:hover {
+    background-color: var(--loycy-secondary-bg);
+    color: white;
+}
 
 
 /* HIRING TAB */
@@ -351,12 +393,14 @@
   
   }
 
-
-
   .equipment__card:hover img {
         border: 1px solid #FDB900;
   }
 
+  .equipment__card p {
+    background-color: #fff;
+    box-shadow:  0px 12px 40px rgba(142, 142, 142, 0.24);
+  }
 
   .equipment__card:hover p {
     background-color: #FDB900;

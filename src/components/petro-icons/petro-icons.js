@@ -226,29 +226,13 @@ export const NewsLine = ({ className }) => {
   );
 };
 
-export const CardArrow = ({ className }) => {
+export const CardArrow = ({ size = 33 }) => {
   return (
-    <svg
-      width="33"
-      height="33"
-      viewBox="0 0 33 33"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
-      <rect
-        width="15.8234"
-        height="23.3458"
-        transform="matrix(1 0 -0.707107 -0.707107 16.875 16.508)"
-        fill="#FCFCFC"
-      />
-      <rect
-        width="15.8234"
-        height="23.3458"
-        transform="matrix(-1 0 0.707107 -0.707107 15.8232 33)"
-        fill="#B4D243"
-      />
-    </svg>
+    <svg width={size} height={size} viewBox="0 0 272 275" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="131.627" height="194.202" transform="matrix(1 0 -0.707107 -0.707107 140.374 137.321)" fill="#FCFCFC"/>
+<rect width="131.627" height="194.202" transform="matrix(-1 0 0.707107 -0.707107 131.626 274.507)" fill="#F6B700"/>
+</svg>
+
   );
 };
 

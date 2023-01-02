@@ -5,7 +5,7 @@ import {
     Tab,
     TabPanel,
 } from "@material-tailwind/react";
-import { BullDozer } from ".";
+import BullDozer from "./bulldozer";
 
 
 const WorkDone = () => {
@@ -16,65 +16,65 @@ const WorkDone = () => {
             desc: <BullDozer />,
         },
         {
-            label: "Pipelines",
-            value: "pipelines",
+            label: "Excavator",
+            value: "excavator",
             desc: <BullDozer />,
         },
 
         {
-            label: "Tanks",
-            value: "tanks",
+            label: "Cranes",
+            value: "cranes",
             desc: <BullDozer />,
         },
 
         {
-            label: "Inspection",
-            value: "inspection",
+            label: "Rollers",
+            value: "rollers",
             desc: <BullDozer />,
         },
 
         {
-            label: "Onshore",
-            value: "onshore",
+            label: "Fork Lifts",
+            value: "forkLifts",
             desc: <BullDozer />,
-    
+
         },
 
         {
-            label: "Offshore",
-            value: "offshore",
-            desc: <BullDozer/>,
+            label: "Low Beds",
+            value: "lowbeds",
+            desc: <BullDozer />,
 
         },
     ];
 
     return (
-       <>
-             <div className="px-8 lg:px-36 pt-10 pb-20">
-            <Tabs id="custom-animation" value="maintenance">
-                <TabsHeader className="bg-transparent p-8 tab-now-now">
-                    {data.map(({ label, value }) => (
-                        <Tab key={value} value={value} >
-                            {label}
-                        </Tab>
-                    ))}
-                </TabsHeader>
-                <TabsBody
-                    animate={{
-                        mount: { y: 0 },
-                        unmount: { y: 250 },
-                    }}
-                   
-                >
-                    {data.map(({ value, desc }) => (
-                        <TabPanel key={value} value={value}>
-                            {desc}
-                        </TabPanel>
-                    ))}
-                </TabsBody>
-            </Tabs>
-        </div>
-       </>
+        <>
+            <div className="px-8 lg:px-36 pt-10 pb-20">
+                <Tabs id="custom-animation" value="bulldozer">
+                    <TabsHeader className="bg-transparent p-8 tab-now-now">
+                        {data.map(({ label, value }) => (
+                            <Tab key={value} value={value} >
+                                {label}
+                            </Tab>
+                        ))}
+                    </TabsHeader>
+                    <TabsBody
+                        animate={{
+                            mount: { y: 0 },
+                            unmount: { y: 250 },
+                        }}
+
+                    >
+                        {data.map(({ value, desc }) => (
+                            <TabPanel key={value} value={value}>
+                                {desc}
+                            </TabPanel>
+                        ))}
+                    </TabsBody>
+                </Tabs>
+            </div>
+        </>
     );
 }
 

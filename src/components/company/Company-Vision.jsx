@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Company__Vision__Mission__CoreValue = () => {
 
@@ -69,9 +70,11 @@ const Company__Vision__Mission__CoreValue = () => {
                         </div>
 
                         <div className='flex justify-center items-center'>
-                            <button className='bg-white py-4 px-8 rounded-md loycy-primary items-center w-56 mt-14 loycy-inter loycy-500 loycy-18'>
-                                Read More
-                            </button>
+                            <Link to="/about">
+                                <button className='home__button py-4 px-8 rounded-md loycy-primary items-center w-56 mt-14 loycy-inter loycy-500 loycy-18'>
+                                    Read More
+                                </button>
+                            </Link>
                         </div>
                     </div>
 
