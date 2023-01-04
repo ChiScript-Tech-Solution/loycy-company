@@ -17,7 +17,73 @@ import {
   Slider9,
   Slider8,
   Slider7,
-  Bulldozer,
+  Bulldozer1,
+  Bulldozer2,
+  Bulldozer3,
+  Bulldozer4,
+  Bulldozer5,
+  Bulldozer6,
+  Bulldozer7,
+  Bulldozer8,
+  Excavator1,
+  Excavator2,
+  Excavator3,
+  Excavator4,
+  Excavator5,
+  Excavator6,
+  Excavator7,
+  Excavator8,
+  Crane1,
+  Crane2,
+  Crane3,
+  Crane4,
+  Crane5,
+  Crane6,
+  Crane7,
+  Crane8,
+  Crane9,
+  Crane10,
+  Crane11,
+  Crane12,
+  Crane13,
+  Crane14,
+  Crane15,
+  Crane16,
+  Crane17,
+  Crane18,
+  Crane19,
+  Crane20,
+  Crane21,
+  Crane22,
+  Crane23,
+  Rollers1,
+  Rollers9,
+  Rollers8,
+  Rollers7,
+  Rollers6,
+  Rollers5,
+  Rollers4,
+  Rollers3,
+  Rollers2,
+  Fork1,
+  Fork8,
+  Fork7,
+  Fork6,
+  Fork5,
+  Fork4,
+  Fork3,
+  Fork2,
+  LowBed1,
+  LowBed7,
+  LowBed6,
+  LowBed5,
+  LowBed4,
+  LowBed3,
+  LowBed2,
+  Others1,
+  Others2,
+  Others3,
+  Others4,
 } from "../assets/import";
 
 export const service = [
@@ -244,78 +310,368 @@ export const partner = [
 
 export const equipment = [
   {
-    img: Bulldozer,
+    img: Bulldozer1,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer2,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer3,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer4,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer5,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer6,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer7,
     title: "Bulldozer",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
+    img: Bulldozer8,
     title: "Bulldozer",
     path: "/contact-us"
   },
+
+]
+
+
+export const excavator = [
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator1,
+    title: "Excavator",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator2,
+    title: "Excavator",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator3,
+    title: "Excavator",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator4,
+    title: "Excavator",
+    path: "/contact-us"
+  },
+
+  {
+    img: Excavator5,
+    title: "Excavator",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator6,
+    title: "Excavator",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator7,
+    title: "Excavator",
     path: "/contact-us"
   },
   {
-    img: Bulldozer,
-    title: "Bulldozer",
+    img: Excavator8,
+    title: "Excavator",
+    path: "/contact-us"
+  },
+  
+]
+
+
+export const cranes = [
+  {
+    img: Crane1,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane2,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane3,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane4,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane5,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane6,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane7,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane8,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane9,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane10,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane11,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane12,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane13,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane14,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane15,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane16,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane17,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane18,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane19,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane20,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane21,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane22,
+    title: "Crane",
+    path: "/contact-us"
+  },
+  {
+    img: Crane23,
+    title: "Crane",
+    path: "/contact-us"
+  },
+
+]
+
+
+export const rollers = [
+  {
+    img: Rollers1,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers2,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers3,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers4,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers5,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers6,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers7,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers8,
+    title: "Roller",
+    path: "/contact-us"
+  },
+  {
+    img: Rollers9,
+    title: "Roller",
+    path: "/contact-us"
+  },
+]
+
+export const fork = [
+  {
+    img: Fork1,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork2,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork3,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork4,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork5,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork6,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork7,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+  {
+    img: Fork8,
+    title: "Fork lifts",
+    path: "/contact-us"
+  },
+]
+
+
+export const lowbed = [
+  {
+    img: LowBed1,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+  {
+    img: LowBed2,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+  {
+    img: LowBed3,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+  {
+    img: LowBed4,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+  {
+    img: LowBed5,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+  {
+    img: LowBed6,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+  {
+    img: LowBed7,
+    title: "Low Beds",
+    path: "/contact-us"
+  },
+]
+
+
+export const others = [
+  {
+    img: Others1,
+    title: "Other",
+    path: "/contact-us"
+  },
+
+  {
+    img: Others2,
+    title: "Other",
+    path: "/contact-us"
+  },
+
+  {
+    img: Others3,
+    title: "Other",
+    path: "/contact-us"
+  },
+
+  {
+    img: Others4,
+    title: "Other",
     path: "/contact-us"
   },
 ]

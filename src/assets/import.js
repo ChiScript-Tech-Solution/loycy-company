@@ -90,13 +90,163 @@ import Operation12 from "./img/all/engineering/operation12.png";
 
 
 // HIRING EQUIPMENT
-import Bulldozer from "./img/all/hire/bulldozer.png";
+import Bulldozer1 from "./img/all/hire/bulldozer/1.png";
+import Bulldozer2 from "./img/all/hire/bulldozer/2.png";
+import Bulldozer3 from "./img/all/hire/bulldozer/3.png";
+import Bulldozer4 from "./img/all/hire/bulldozer/4.png";
+import Bulldozer5 from "./img/all/hire/bulldozer/5.png";
+import Bulldozer6 from "./img/all/hire/bulldozer/6.png";
+import Bulldozer7 from "./img/all/hire/bulldozer/7.png";
+import Bulldozer8 from "./img/all/hire/bulldozer/8.png";
+
+
+import Excavator1 from "./img/all/hire/excavator/1.png";
+import Excavator2 from "./img/all/hire/excavator/2.png";
+import Excavator3 from "./img/all/hire/excavator/3.png";
+import Excavator4 from "./img/all/hire/excavator/4.png";
+import Excavator5 from "./img/all/hire/excavator/5.png";
+import Excavator6 from "./img/all/hire/excavator/6.png";
+import Excavator7 from "./img/all/hire/excavator/7.png";
+import Excavator8 from "./img/all/hire/excavator/8.png";
+
+
+import Crane1 from "./img/all/hire/cranes/1.png";
+import Crane2 from "./img/all/hire/cranes/2.png";
+import Crane3 from "./img/all/hire/cranes/3.png";
+import Crane4 from "./img/all/hire/cranes/4.png";
+import Crane5 from "./img/all/hire/cranes/5.png";
+import Crane6 from "./img/all/hire/cranes/6.png";
+import Crane7 from "./img/all/hire/cranes/7.png";
+import Crane8 from "./img/all/hire/cranes/8.png";
+import Crane9 from "./img/all/hire/cranes/9.png";
+import Crane10 from "./img/all/hire/cranes/10.png";
+import Crane11 from "./img/all/hire/cranes/11.png";
+import Crane12 from "./img/all/hire/cranes/12.png";
+import Crane13 from "./img/all/hire/cranes/13.png";
+import Crane14 from "./img/all/hire/cranes/14.png";
+import Crane15 from "./img/all/hire/cranes/15.png";
+import Crane16 from "./img/all/hire/cranes/16.png";
+import Crane17 from "./img/all/hire/cranes/17.png";
+import Crane18 from "./img/all/hire/cranes/18.png";
+import Crane19 from "./img/all/hire/cranes/19.png";
+import Crane20 from "./img/all/hire/cranes/20.png";
+import Crane21 from "./img/all/hire/cranes/21.png";
+import Crane22 from "./img/all/hire/cranes/22.png";
+import Crane23 from "./img/all/hire/cranes/23.png";
+
+
+import Rollers1 from "./img/all/hire/rollers/1.png";
+import Rollers2 from "./img/all/hire/rollers/2.png";
+import Rollers3 from "./img/all/hire/rollers/3.png";
+import Rollers4 from "./img/all/hire/rollers/4.png";
+import Rollers5 from "./img/all/hire/rollers/5.png";
+import Rollers6 from "./img/all/hire/rollers/6.png";
+import Rollers7 from "./img/all/hire/rollers/7.png";
+import Rollers8 from "./img/all/hire/rollers/8.png";
+import Rollers9 from "./img/all/hire/rollers/9.png";
+
+
+import Fork1 from "./img/all/hire/fork/1.png";
+import Fork2 from "./img/all/hire/fork/2.png";
+import Fork3 from "./img/all/hire/fork/3.png";
+import Fork4 from "./img/all/hire/fork/4.png";
+import Fork5 from "./img/all/hire/fork/5.png";
+import Fork6 from "./img/all/hire/fork/6.png";
+import Fork7 from "./img/all/hire/fork/7.png";
+import Fork8 from "./img/all/hire/fork/8.png";
+
+import LowBed1 from "./img/all/hire/lowbed/1.png";
+import LowBed2 from "./img/all/hire/lowbed/2.png";
+import LowBed3 from "./img/all/hire/lowbed/3.png";
+import LowBed4 from "./img/all/hire/lowbed/4.png";
+import LowBed5 from "./img/all/hire/lowbed/5.png";
+import LowBed6 from "./img/all/hire/lowbed/6.png";
+import LowBed7 from "./img/all/hire/lowbed/7.png";
+
+
+import Others1 from "./img/all/hire/others/1.png";
+import Others2 from "./img/all/hire/others/2.png";
+import Others3 from "./img/all/hire/others/3.png";
+import Others4 from "./img/all/hire/others/4.png";
+
 
 export  { 
 
     // HIRING EQUIPMENT
-    Bulldozer,
+    Bulldozer1,
+    Bulldozer2,
+    Bulldozer3,
+    Bulldozer4,
+    Bulldozer5,
+    Bulldozer6,
+    Bulldozer7,
+    Bulldozer8,
 
+    Excavator1,
+    Excavator2,
+    Excavator3,
+    Excavator4,
+    Excavator5,
+    Excavator6,
+    Excavator7,
+    Excavator8,
+
+    Crane1,
+    Crane2,
+    Crane3,
+    Crane4,
+    Crane5,
+    Crane6,
+    Crane7,
+    Crane8,
+    Crane9,
+    Crane10,
+    Crane11,
+    Crane12,
+    Crane13,
+    Crane14,
+    Crane15,
+    Crane16,
+    Crane17,
+    Crane18,
+    Crane19,
+    Crane20,
+    Crane21,
+    Crane22,
+    Crane23,
+
+    Rollers1,
+    Rollers2,
+    Rollers3,
+    Rollers4,
+    Rollers5,
+    Rollers6,
+    Rollers7,
+    Rollers8,
+    Rollers9,
+
+    Fork1,
+    Fork2,
+    Fork3,
+    Fork4,
+    Fork5,
+    Fork6,
+    Fork7,
+    Fork8,
+
+    LowBed1,
+    LowBed2,
+    LowBed3,
+    LowBed4,
+    LowBed5,
+    LowBed6,
+    LowBed7,
+
+    Others1,
+    Others2,
+    Others3,
+    Others4,
+    
     // logo
     Logo,
     Logo2,

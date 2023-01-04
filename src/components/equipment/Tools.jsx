@@ -1,11 +1,7 @@
-import {
-    Tabs,
-    TabsHeader,
-    TabsBody,
-    Tab,
-    TabPanel,
-} from "@material-tailwind/react";
-import BullDozer from "./bulldozer";
+import { Tabs, TabsHeader, TabsBody, Tab, TabPanel, } from "@material-tailwind/react";
+import { cranes, equipment, excavator, fork, lowbed, others, rollers } from "../../data/Data";
+import Equipment from "./bulldozer";
+
 
 
 const WorkDone = () => {
@@ -13,37 +9,44 @@ const WorkDone = () => {
         {
             label: "Bulldozer",
             value: "bulldozer",
-            desc: <BullDozer />,
+            desc: <Equipment data={equipment} />,
         },
         {
             label: "Excavator",
             value: "excavator",
-            desc: <BullDozer />,
+            desc: <Equipment data={excavator} />,
         },
 
         {
             label: "Cranes",
             value: "cranes",
-            desc: <BullDozer />,
+            desc: <Equipment data={cranes} />,
         },
 
         {
             label: "Rollers",
             value: "rollers",
-            desc: <BullDozer />,
+            desc: <Equipment data={rollers} />,
         },
 
         {
             label: "Fork Lifts",
             value: "forkLifts",
-            desc: <BullDozer />,
+            desc: <Equipment data={fork} />,
 
         },
 
         {
             label: "Low Beds",
             value: "lowbeds",
-            desc: <BullDozer />,
+            desc: <Equipment data={lowbed} />,
+
+        },
+
+        {
+            label: "Others",
+            value: "others",
+            desc: <Equipment data={others}/>,
 
         },
     ];

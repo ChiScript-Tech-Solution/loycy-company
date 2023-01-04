@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import ReactPaginate from "react-paginate";
 import { Link } from 'react-router-dom';
-import { equipment } from '../../data/Data';
 
-const BullDozer = () => {
-    const [projectList] = useState(equipment.slice(0));
+const BullDozer = ({ data }) => {
+    const [projectList] = useState(data.slice(0));
     const [pageNumber, setPageNumber] = useState(0);
 
 
@@ -42,10 +41,6 @@ const BullDozer = () => {
                 disabledClassName={"paginationDisabled"}
                 nextLabel={"Next"}
                 containerClassName={"petro__pagination"}
-                // pageClassName={"page-item"}
-                // pageLinkClassName={"page-link"}
-                // previousClassName={"page-item"}
-                // previousLinkClassName={"page-link"}
                 nextClassName={"page-item"}
                 nextLinkClassName={"page-link"}
                 activeClassName={"active"}
