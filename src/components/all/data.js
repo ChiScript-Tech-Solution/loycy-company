@@ -24,7 +24,7 @@ export const goal = [
     },
 
     {
-        title: "Our Goal",
+        title: "Our Core Values",
         desc: [
             {
                 text: "Excellence "

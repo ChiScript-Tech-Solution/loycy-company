@@ -26,7 +26,7 @@ const Form = () => {
                                 I accept the <b className='petro-heading'>terms & conditions and privacy policy</b>
                             </span>
                         </div>
-                        <button className='bg-[#21B2E1] p-3 rounded petro-white'>Send Message</button>
+                        <button className='bg-[#F6B700] p-3 rounded petro-white'>Send Message</button>
                     </div>
                 </form>
             </div>

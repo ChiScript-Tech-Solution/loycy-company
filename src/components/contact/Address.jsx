@@ -13,7 +13,7 @@ const Address = () => {
                     <div key={index}>
                         <h2 className='petro-semibold font-600 petro-heading text-[16px] leading-[36px] pb-5'>
                             {item.title}
-                            <div className='w-[8rem] h-[0.5rem] bg-[#21B2E1]'></div>
+                            <div className='w-[8rem] h-[0.5rem] bg-[#F6B700]'></div>
                         </h2>
                         <p className='petro-regular font-400 petro-heading opacity-[0.85] text-[16px]'>
                             {item.desc}

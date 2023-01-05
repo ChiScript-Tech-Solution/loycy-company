@@ -180,13 +180,13 @@ export const hire = [
 
   {
     img: Hire7,
-    title: "CRANES",
+    title: "DUMPSTERS",
     path: '/hire'
   },
 
   {
     img: Hire8,
-    title: "CRANES",
+    title: "PAVERS",
     path: '/hire'
   },
 ];

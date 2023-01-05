@@ -57,8 +57,8 @@ import Hire3 from "./img/hire/3.png";
 import Hire4 from "./img/hire/4.png";
 import Hire5 from "./img/hire/5.png";
 import Hire6 from "./img/hire/6.png";
-import Hire7 from "./img/hire/1.png";
-import Hire8 from "./img/hire/2.png";
+import Hire7 from "./img/hire/7.png";
+import Hire8 from "./img/hire/8.png";
 
 
 // ABOUT - PEOPLE
