@@ -21,6 +21,7 @@
   display: block;
   position: absolute;
   top: 1.8rem;
+  right: 20rem;
   background-color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 10px;
@@ -39,4 +40,37 @@
   padding: 4px 0;
 }
 
+
+/* TABS */
+.loycy__dropdown__menu button {
+  background-color: #F8F8F8;
+  border: none;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.5s ease-out;
+  margin: 5px 0px;
+  font-size: 16px;
+}
+
+.loycy__dropdown__menu button:hover {
+  color: #001A3D;
+  background-color: #F8F8F8;
+}
+
+.loycy__dropdown__menu button:disabled {
+  background: #1B5AB2;
+  color: white;
+}
+
+.submenu__button {
+  background: rgba(243, 190, 34, 0.1);
+  margin-right: 5px;
+  padding: 4px;
+}
+
+.loycy__dropdown__menu button:disabled .submenu__button {
+  background-color: white;
+  opacity: 100%;
+}
 

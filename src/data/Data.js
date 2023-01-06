@@ -85,6 +85,8 @@ import {
   Others3,
   Others4,
 } from "../assets/import";
+import { Icons } from "../constant/Icons";
+import HeavyMachine from "../components/navbar/DropdownMenu";
 
 export const service = [
   {
@@ -747,14 +749,60 @@ export const mobile = [
   },
 ]
 
-export const submenu = [
-  {
-    title: "Heavy Equipment",
-    path: "/hire"
-  },
 
+export const HeavyEquipment = [
   {
-    title: "Light Equipment",
-    path: '/'
-  }
-]
+    id: 1,
+    subtitle: "Bulldozer",
+    icon: <Icons.MenuDropDown/>,
+    path: '/hire'
+  },
+  {
+    id: 2,
+    subtitle: "Excavator",
+    icon: <Icons.MenuDropDown/>,
+    path: '/hire'
+  },
+  {
+    id: 3,
+    subtitle: "Cranes",
+    icon: <Icons.MenuDropDown/>,
+    path: '/hire'
+  },
+  {
+    id: 4,
+    subtitle: "Rollers",
+    icon: <Icons.MenuDropDown/>,
+    path: '/hire'
+  },
+  {
+    id: 1,
+    subtitle: "Fork Lifts",
+    icon: <Icons.MenuDropDown/>,
+    path: '/hire'
+  },
+  {
+    id: 1,
+    subtitle: "Low Beds",
+    icon: <Icons.MenuDropDown/>,
+    path: '/hire'
+  },
+  ]
+
+
+  export const submenu = [
+    {
+      id: 1,
+      title: "Heavy Equipment",
+      icon: <Icons.MenuDropDown/>, 
+      link: <HeavyMachine data={HeavyEquipment} />
+    },
+  
+    {
+      id: 2,
+      title: "Light Equipment",
+      icon: <Icons.MenuDropDown/>,
+      link: <HeavyMachine data={HeavyEquipment} />
+    },
+  
+  ]

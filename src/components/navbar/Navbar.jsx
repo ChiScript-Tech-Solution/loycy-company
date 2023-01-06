@@ -1,5 +1,5 @@
 // applying react hook called useState
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
 import { Logo } from '../../assets/import';
@@ -18,6 +18,12 @@ const Navbar = () => {
     const activeLink = 'text-[#F6B700]';
     const normalLink = "";
 
+    const [currentTab, setCurrentTab] = useState('1');
+
+    const handleTabClick = (e) => {
+        setCurrentTab(e.target.id);
+    }
+
     return (
         <>
             <div className="flex justify-between items-center loycy-outfit loycy-primary loycy-400 loycy-16 line-24 loycy-shadow px-8 lg:px-16 py-5">
@@ -35,17 +41,41 @@ const Navbar = () => {
                     ))}
                     <li>
                         <Link to="">For Hire</Link>
-                        <ul className='loycy__dropdown__menu'>
-                            {submenu.map((sub, id) => (
-                                <li key={id}>
-                                    <NavLink to={sub.path}
-                                    className={({ isActive }) => isActive ? activeLink : normalLink}
-                                >
-                                    {sub.title}
-                                </NavLink>
-                                </li>
-                            ))}
-                        </ul>
+                        <div className='loycy__dropdown__menu w-[50%]'>
+                            <div className='flex space-x-3'>
+                                <div className='w-[15rem]'>
+                                    {submenu.map((tab, i) =>
+                                        <button
+                                            key={i}
+                                            id={tab.id}
+                                            disabled={currentTab === `${tab.id}`}
+                                            onClick={(handleTabClick)}
+                                            className="px-3 py-3 w-20 flex justify-start items-center"
+                                        >
+                                            <span className='submenu__button '>
+                                                {tab.icon}
+                                            </span>
+                                            {tab.title}
+                                        </button>
+                                    )}
+                                </div>
+
+                                <div className='flex'>
+                                    {submenu.map((tab, i) =>
+                                        <div key={i} className="grid grid-cols-3 gap-2 ">
+                                            {currentTab === `${tab.id}` &&
+                                                <>
+                                                    {tab.link}
+                                                </>
+                                            }
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+
+                            {/* here */}
+
+                        </div>
                     </li>
                 </ul>
 

@@ -26,9 +26,11 @@ import {
   Power,
   Industrial,
   Erosion,
+  MenuDropDown,
 } from "../components/petro-icons/petro-icons";
 
 export const Icons = {
+  MenuDropDown,
   Industrial,
   Erosion,
   Power,
