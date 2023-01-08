@@ -1,4 +1,5 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { PageBanner, PetroNavbar } from '..';
 import { Operation1, Operation10, Operation11, Operation12, Operation2, Operation3, Operation4, Operation5, Operation6, Operation7, Operation8, Operation9 } from '../../assets/import';
 import { engineer } from './data';
@@ -49,18 +50,18 @@ const Engineering = () => {
                     Operation Pictures
                 </h2>
                 <div className='columns-3 gap-4 space-y-4'>
-                    <img src={Operation1} alt="operators" />
-                    <img src={Operation2} alt="operators" />
-                    <img src={Operation3} alt="operators" />
-                    <img src={Operation4} alt="operators" />
-                    <img src={Operation5} alt="operators" />
-                    <img src={Operation6} alt="operators" />
-                    <img src={Operation7} alt="operators" />
-                    <img src={Operation8} alt="operators" />
-                    <img src={Operation9} alt="operators" />
-                    <img src={Operation10} alt="operators" />
-                    <img src={Operation11} alt="operators" />
-                    <img src={Operation12} alt="operators" />
+                    <LazyLoadImage src={Operation1} alt="operators" />
+                    <LazyLoadImage src={Operation2} alt="operators" />
+                    <LazyLoadImage src={Operation3} alt="operators" />
+                    <LazyLoadImage src={Operation4} alt="operators" />
+                    <LazyLoadImage src={Operation5} alt="operators" />
+                    <LazyLoadImage src={Operation6} alt="operators" />
+                    <LazyLoadImage src={Operation7} alt="operators" />
+                    <LazyLoadImage src={Operation8} alt="operators" />
+                    <LazyLoadImage src={Operation9} alt="operators" />
+                    <LazyLoadImage src={Operation10} alt="operators" />
+                    <LazyLoadImage src={Operation11} alt="operators" />
+                    <LazyLoadImage src={Operation12} alt="operators" />
                 </div>
             </div>
         </>

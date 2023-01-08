@@ -1,11 +1,13 @@
 
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { PageBanner } from '..';
 import { People1, People2, People3, People4, People5, People6 } from '../../assets/import';
 import { partner } from '../../data/Data';
 import { CTA, Subscription } from '../form';
 import Partner from '../partner/Partner';
 import { goal, service } from './data';
+import PlaceholderImg from "../../assets/img/placeholderImg.jpg";
 
 const About = () => {
   return (
@@ -81,12 +83,12 @@ const About = () => {
         </div>
 
         <div class="gap-4 row-3 lg:columns-3 space-y-4">
-          <img class="w-full   aspect-square" src={People1} alt='' />
-          <img class="w-full   aspect-video " src={People2} alt='' />
-          <img class="w-full   aspect-video " src={People3} alt='' />
-          <img class="w-full   aspect-square " src={People5} alt='' />
-          <img class="w-full   aspect-video" src={People4} alt='' />
-          <img class="w-full   aspect-square " src={People6} alt='' />
+          <LazyLoadImage placeholderSrc={PlaceholderImg} class="w-full   aspect-square" src={People1} alt='' />
+          <LazyLoadImage placeholderSrc={PlaceholderImg} class="w-full   aspect-video " src={People2} alt='' />
+          <LazyLoadImage placeholderSrc={PlaceholderImg} class="w-full   aspect-video " src={People3} alt='' />
+          <LazyLoadImage placeholderSrc={PlaceholderImg} class="w-full   aspect-square " src={People5} alt='' />
+          <LazyLoadImage placeholderSrc={PlaceholderImg} class="w-full   aspect-video" src={People4} alt='' />
+          <LazyLoadImage placeholderSrc={PlaceholderImg} class="w-full   aspect-square " src={People6} alt='' />
         </div>
       </div>
 

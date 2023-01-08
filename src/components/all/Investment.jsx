@@ -2,6 +2,7 @@ import React from 'react'
 import { PageBanner, PetroNavbar } from '..';
 import LoycyAccordion from '../accordion/Accordion';
 import { General, Leasing1, LoycyEngineer } from '../../assets/import'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Investment = () => {
     return (
@@ -41,7 +42,7 @@ const Investment = () => {
             <div className='bg-white px-8 lg:px-24 py-8 lg:py-20'>
                 <div className='block lg:flex justify-center items-center'>
                     <div className='w-full lg:w-[50%]'>
-                        <img src={Leasing1} alt="" />
+                        <LazyLoadImage src={Leasing1} alt="" />
                     </div>
                     <div className='w-full lg:w-[50%] bg-[#F5D472] p-4 lg:p-20'>
                         <h4 className='loycy-regular loycy-400 text-2xl text-[#444D4D] leading-[30px]'>Leasing</h4>
@@ -79,7 +80,7 @@ const Investment = () => {
                     </div>
 
                     <div className='w-full lg:w-[50%]'>
-                        <img src={General} alt="" />
+                        <LazyLoadImage src={General} alt="" />
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@ const Investment = () => {
             <div className='bg-white px-8 lg:px-24 py-8 lg:py-20'>
                 <div className='block lg:flex justify-center items-center'>
                     <div className='w-full lg:w-[50%]'>
-                        <img src={LoycyEngineer} alt="" />
+                        <LazyLoadImage src={LoycyEngineer} alt="" />
                     </div>
                     <div className='w-full lg:w-[50%] bg-[#F5D472] p-4 lg:p-20'>
                         <h4 className='loycy-regular loycy-400 text-2xl text-[#444D4D] leading-[30px]'>ENGINEERING Services</h4>

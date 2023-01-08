@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactPaginate from "react-paginate";
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const BullDozer = ({ data }) => {
     const [projectList] = useState(data.slice(0));
@@ -16,7 +17,7 @@ const BullDozer = ({ data }) => {
             return (
                 <Link to={item.path}>
                     <div key={index} className='justify-center items-center text-center equipment__card'>
-                        <img src={item.img} alt={item.title} />
+                        <LazyLoadImage src={item.img} alt={item.title} />
                         <p className='p-3 loycy-medium loycy-500 text-base'>{item.title}</p>
                     </div>
                 </Link>

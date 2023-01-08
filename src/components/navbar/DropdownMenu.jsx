@@ -5,21 +5,20 @@ import { Link } from 'react-router-dom';
 
 
 const DropdownMenu = ({ data }) => {
-    const activeLink = 'text-[#F6B700]';
-    const normalLink = "";
+
     return (
         <>
             {data.map((item, i) => (
-                <ul key={i} className="flex justify-between">
+                <ul key={i} className="flex">
                     <li>
-                        <Link to={item.path} 
-                            style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
-                            className={({ isActive }) => isActive ? activeLink : normalLink }
-                            >
-                            <span className='bg-[#F3BE22] bg-opacity-[10%] p-2 mr-3'>
+                        <Link
+                            to={item.path}
+                            className="flex justify-center items-center space-x-2"
+                        >
+                            <span className='bg-[#F3BE22] bg-opacity-[10%] p-2'>
                                 {item.icon}
                             </span>
-                            {item.subtitle}
+                            <span>{item.subtitle}</span>
                         </Link>
                     </li>
                 </ul>
